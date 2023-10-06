@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgb(53, 58, 64);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header h2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: left;
+    align-items:flex-start;
+}
+
+.header img{
+width: 110px;
+margin: 0 60px;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: rgb(157, 156, 162);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.navbar{
+    text-align: left;
+}
+
+#comprar{
+    color: rgb(41, 167, 70);
+}
+
+#conf{
+    color: white;
+}
+
+.card-img-overlay{
+    text-align:right;
+    align-items:end ;
+    display: flex;
+}
+
+.card-text h2{
+    font-size: 6vh;
+    color: white;
+}
+    
+.card-text{
+        justify-content: end;
+        text-align: end;
+        color: white;
+}
+
+
+.img1{
+        width: 100%;
+        background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,10)) ;
+}
+
+.oradores{
+    text-align: center;
+}
+
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card p{
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}
+
+.card-body h5{
+    color: rgb(0, 0, 0) solid;
+    font-size:25px;
+}
+
+.image-container {
+    border: 1px solid white;
+}
+
+.conoce{
+    margin: 20px;
+}
+
+.conv{
+    text-align: center;
+}
+
+.conv h4{
+    font-size: 10px;
+}
+
+.conv p{
+font-size: 12px;
+}
+
+span{
+    text-decoration: underline dotted;
+}
+
+
+#form{
+    width: 90%;
+    margin: 43px;
+}
+
+
+#inputNombre {
+  width: 75%;
+ 
+
+}
+
+#inputApellido {
+  width: 75%;
+
+}
+
+.mensaje p{
+text-align: left;
+margin-left: 325px;
+margin-top: 5px;
+font-size: 10px;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links{
+    width: 13%;
+    padding: 0 15px;
+    
+}
+
+.footer{
+    background-color: rgb(28, 57, 73);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1{
+    width:100%;
+    margin: 0 auto;
+}
+
+.footer-links h4 a{
+    font-size: 15px;
+   color: azure;
+   text-decoration: none;
+   text-align: center;
+   justify-content: space-between;
+    
+}
+
+
+.btn{
+    color: white;
+}
